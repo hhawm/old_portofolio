@@ -105,7 +105,8 @@ ul {
     margin-bottom: 60px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;  
-    flex: 1 0 auto;
+    /* flex: 1 0 auto; */
+    flex-wrap: wrap;
 
 
 
@@ -141,4 +142,50 @@ footer {
 
 
 }
+/* Form size and info */
+label, input, textarea {
+  width: 850px;
+  display: block;
+}
 
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+
+}
+
+
+
+/* Portfolio Game Pictures */
+
+.game-gallery {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.game-gallery li {
+  display: inline-block;
+  position: relative;
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.game-image {
+  width: 320px;
+  height: 320px;
+  
+}
+
+.game-title {
+  position: absolute;
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  bottom: 30px;
+  padding: 10px;
+  opacity: 0.80;
+}

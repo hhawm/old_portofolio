@@ -27,15 +27,28 @@
 
     <!-- contact form goes here -->
     <div class="main-container">
-        <h2>Contact</h2>
-        <p> name
-        </p>
-        <p> email
-        </p>
-        <p> message
-        </p>
-        <p> submit
-        </p>
+        
+        <section>
+            <h2>Contact</h2>
+            <form action="mailto:henry.hawm@gmail.com">
+                <p>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                </p>
+
+                <p>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="10"></textarea>
+                </p>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
 
     </div>
 
