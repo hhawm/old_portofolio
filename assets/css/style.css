@@ -1,7 +1,8 @@
 body {
     margin: 0px;
-    background-image: url("../images/wild_flowers.png");
-}
+    background-image: url('../images/wild_flowers.png');
+    }
+
 /* header placement and size */
 header {
     display: block;
@@ -11,6 +12,7 @@ header {
     background: white;
     height: 100%;
     width: 100%;
+    border-bottom: 1px solid #d1d0d0;
     margin-bottom: 50px;
     
     
@@ -48,9 +50,7 @@ h2 {
     max-width: 960px;
     box-sizing: border-box;
     margin:auto;
-    
     background-color: #ffffff;
-    border-bottom: 1px solid #d1d0d0;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -95,9 +95,12 @@ ul {
     padding: 50px;
     border: 1px solid #d1d0d0;
     border-radius: 10px;
-    margin-bottom: 50px;
-    /* background-color:yellow; */
+    margin-bottom: 150px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* background-color:yellow;  */
+    /* YELLOW box is for me to see the box clearly */
+
 
   }
 
@@ -109,10 +112,12 @@ ul {
     margin-right: 25px;
     margin-bottom: 10px;
 }
+
+
 /* footer placement and size */
 footer {
     display: block;
-    position: relative;
+    position: fixed;
     background: gray;
     width: 100%;
     left: 0;
