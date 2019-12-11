@@ -13,59 +13,74 @@
 
 <body>
 
-    <!-- header with nav bar -->
-    <header>
-        <div class="topnav">
+    <!-- navigation bar that looks good as white but not with background color -->
+    <header class="d-sm-flex flex-column flex-md-row align-items-center bg-white shadow-sm pb-0 pt-0 topnav">
+        <div class="mr-md-auto nav-text">
             <h1>Henry Hawm</h1>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-
-                <li><a href="portfolio.html">Portfolio</a></li>
-
-                <li><a href="index.html">About</a></li>
-            </ul>
         </div>
+        <nav class="my-0 my-sm-0 mr-sm-3">
+            <a class="nav-item" href='index.html'>About</a>
+            <a class="nav-item" href='portfolio.html'>Portfolio</a>
+            <a class="nav-item" href='Contact.html'>Contact</a>
+
+        </nav>
     </header>
+
+
 
     <!-- main content info with thumbnail pics -->
 
     <div class="main-container">
-        <h2>Portfolio</h2>
-        <ul class="game-gallery">
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                    <img class="game-image" src="assets/images/game1.jpg" alt="Hangman">
-                    <div class="game-title">Hangman</div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                    <img class="game-image" src="assets/images/game2.jpg" alt="RPG Game">
-                    <div class="game-title">RPG Game</div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                    <img class="game-image" src="assets/images/game3.jpg" alt="Trivia Game">
-                    <div class="game-title">Trivia Game</div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                    <img class="game-image" src="assets/images/game4.jpg" alt="Rutgers Info Widget">
-                    <div class="game-title">Rutgers Info Widget </div>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.google.com" target="_blank">
-                    <img class="game-image" src="assets/images/game5.jpg" alt="Rock Paper Scissors">
-                    <div class="game-title">Rock Paper Scissors</div>
-                </a>
-            </li>
-        </ul>
+        <div class="row">
+            <div class="col-md-12">
+                <h2>My Portfolio</h2>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="game-gallery">
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <img class="game-image" src="assets/images/game1.jpg" alt="Hangman">
+                            <div class="game-title">Hangman</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <img class="game-image" src="assets/images/game2.jpg" alt="RPG Game">
+                            <div class="game-title">RPG Game</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <img class="game-image" src="assets/images/game3.jpg" alt="Trivia Game">
+                            <div class="game-title">Trivia Game</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <img class="game-image" src="assets/images/game4.jpg" alt="Rutgers Info Widget">
+                            <div class="game-title">Rutgers Info Widget </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">
+                            <img class="game-image" src="assets/images/game5.jpg" alt="Rock Paper Scissors">
+                            <div class="game-title">Rock Paper Scissors</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <footer>Copyright © 2019</footer>
+    <div class="row">
+        <div class="col-md-12 footer">
+            Copyright © 2019
+        </div>
+    </div>
+
 
 </body>
 
