@@ -22,17 +22,21 @@ header {
     width: 100%;
     border-bottom: 1px solid #d1d0d0;
     margin-bottom: 50px; 
-  }
+}
+.nav-item{
+    text-align: right;
+  
+}
     
     
 
 
 /* Add color and font to h1 */
 
-.nametitle{
+.h1{
     
     margin: 0;
-    padding: 10%;
+    padding: 0;
     text-align: center;
     color: #ffffff;
     background-color: #4CAF50;
@@ -66,16 +70,16 @@ h2 {
 /* Removes bullets from UL in top navigation bar*/
 ul {
     list-style-type: none;
-    margin:0px;
-    padding: 0px;
+    margin: 10px;
+    padding: 10px;
     }
 
 
-Style the links inside the navigation bar
+/* Style the links inside the navigation bar */
 .topnav a {
-    float: right;
+    /* float: right; */
     text-align: center;
-    /* padding: 150px; */
+    padding: 150px;
     text-decoration: none;
     /* font-size: 24px; */
     /* color: black; */
