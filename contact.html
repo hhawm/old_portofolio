@@ -3,13 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Henry with bootstrap</title>
+    <title>Henry's Contact with bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
+
 
 <body>
 
@@ -21,12 +23,10 @@
         <nav class="my-0 my-sm-0 mr-sm-3">
             <a class="nav-item" href='index.html'>About</a>
             <a class="nav-item" href='portfolio.html'>Portfolio</a>
-            <a class="nav-item" href='Contact.html'>Contact</a>
+            <a class="nav-item" href='contact.html'>Contact</a>
 
         </nav>
     </header>
-
-
 
     <!-- contact form goes here -->
     <div class="main-container">
@@ -41,11 +41,12 @@
                 <form action="mailto:henry.hawm@gmail.com">
                     <p>
                         <label for="name">Name : </label>
-                        <input type="text" id="name" name="name" placeholder="John Smith">
+                        <input type="text" class="input-control" id="name" name="name" placeholder="John Smith">
                     </p>
                     <p>
                         <label for="email">Email : </label>
-                        <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                        <input type="email" class="input-control" id="email" name="email"
+                            placeholder="example@gmail.com">
                     </p>
 
                     <p>
@@ -57,14 +58,13 @@
                 </form>
             </div>
         </div>
-
-
     </div>
     <div class="row">
         <div class="col-md-12 footer">
             Copyright © 2019
         </div>
     </div>
+
 
 
 </body>
